@@ -1,0 +1,8 @@
+bdy {
+  background: gray;
+}
+
+form label{
+  display: block;
+  font-size: 20px;
+}

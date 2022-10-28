@@ -1,31 +1,50 @@
-<html>
-    <head> 
+</head>
+<link rel="stylesheet" href="style.css">
+<body>
+    <h1>FORMULÁRIO DE CADASTRO</h1>
 
-    </head>
-    <link rel="stylesheet" href="style.css">
-    <body>
-        <h1>FORMULÁRIO DE CADASTRO</h1>
+    <main>
 
-        <main>
+        <form>
 
-            <form>
+            <label for="nome">NOME</label>
+            <input type="text"  id="nome">
 
-                <label for="nome">NOME</label>
-                <input type="text"  id="nome">
+            <label for="idade">IDADE</label>
+            <input type="number"  id="idade">
 
-                <label for="idade">IDADE</label>
-                <input type="text"  id="idade">
+            <label for="telefone">TELEFONE</label>
+            <input type="tel"  id="telefone">
+            
+">
+            
+            
+            <label for="datanasc">DATA DE NASC</label>
+            <input type="date"  id="nome">
 
-                <label for="telefone">TELEFONE</label>
-                <input type="text"  id="telefone">
+            <label for="endemail">E-MAIL</label>
+            <input type="email"  id="endemail">
 
-                <input type="submit"
+            <label for="senha">SENHA</label>
+            <input type="password"  id="senha">
+        </form>
+            <div>
+                <textarea cols="25px" rows="30px"></textarea>
+        
+            </div>
+            <label for="circulo-email">E-MAIL</label>
+            <input type="radio" id="circolo-email">
+            <br>
 
-            </form>
+            <label for="caixa-wpp">WHATSAPP</label>
+            <input type="checkbox" id="caixa-wpp"
+
+           
+        </form>
 
 
-        </main>
-    </body>
+    </main>
+</body>
 
 
 
@@ -34,3 +53,5 @@
 
 
 </html>
+
+

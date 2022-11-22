@@ -1,8 +1,16 @@
-bdy {
+body {
   background: gray;
 }
 
 form label{
   display: block;
   font-size: 20px;
+}
+
+td {
+
+border: 1px solid #000000;
+
+border-color: cor;
+
 }
